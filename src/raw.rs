@@ -94,7 +94,6 @@ extern "C" {
 
     /* ----------------------- pam_modules.h ------------------------ */
     /* -------------------- The Linux-PAM Module PI ----------------- */
-
     pub fn pam_set_data(pamh: *mut PamHandle,
                         module_data_name: *const c_char,
                         data: *mut c_void,
